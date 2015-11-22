@@ -8,6 +8,12 @@
 #### What is this image?
 This image provides a base Alpine linux installation (provided by gliderlabs/alpine:latest) and installs a base set of packages used by child images, such as build-base, git and many more (as required)
 
+### golang
+
+[![](https://badge.imagelayers.io/matthewgall/golang:latest.svg)](https://imagelayers.io/?images=matthewgall/golang:latest 'Get your own badge on imagelayers.io')
+
+#### What is this image?
+This image provides a [Go](https://www.golang.org) environment for all your Docker needs!
 ### nginx
 
 [![](https://badge.imagelayers.io/matthewgall/nginx:latest.svg)](https://imagelayers.io/?images=matthewgall/nginx:latest 'Get your own badge on imagelayers.io')
