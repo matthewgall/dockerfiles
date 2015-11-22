@@ -3,4 +3,5 @@
 for d in $(ls -l . | egrep '^d' | awk '{print $9}')
 do
 	cat $d/README.md >> ./README.md
+	echo "" >> ./README.md
 done
