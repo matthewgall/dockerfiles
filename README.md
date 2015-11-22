@@ -8,13 +8,18 @@
 #### What is this image?
 This image provides a base Alpine linux installation (provided by gliderlabs/alpine:latest) and installs a base set of packages used by child images, such as build-base, git and many more (as required)
 
+### nginx
+
+[![](https://badge.imagelayers.io/matthewgall/nginx:latest.svg)](https://imagelayers.io/?images=matthewgall/nginx:latest 'Get your own badge on imagelayers.io')
+
+#### What is this image?
+This image provides a [nginx](https://www.nginx.org) instance, perfect for setting up static file hosting (or more complex environments using PHP)
 ### nodejs-dev
 
 [![](https://badge.imagelayers.io/matthewgall/nodejs-dev:latest.svg)](https://imagelayers.io/?images=matthewgall/nodejs-dev:latest 'Get your own badge on imagelayers.io')
 
 #### What is this image?
 This image provides a [nodejs](https://www.nodejs.org) environment, including [npm](https://www.npmjs.com) for all your Docker needs!
-
 ### python-dev
 
 [![](https://badge.imagelayers.io/matthewgall/python-dev:latest.svg)](https://imagelayers.io/?images=matthewgall/python-dev:latest 'Get your own badge on imagelayers.io')
