@@ -14,6 +14,14 @@ This image provides a base Alpine linux installation (provided by gliderlabs/alp
 
 #### What is this image?
 This image provides a [Go](https://www.golang.org) environment for all your Docker needs!
+
+### maltrail-client
+
+[![](https://badge.imagelayers.io/matthewgall/maltrail-client:latest.svg)](https://imagelayers.io/?images=matthewgall/maltrail-client:latest 'Get your own badge on imagelayers.io')
+
+#### What is this image?
+This image provides a [maltrail](https://github.com/stamparm/maltrail) client, part of a larger maltrail system. Maltrail is a malicious traffic detection system, utilizing publicly available (black)lists containing malicious and/or generally suspicious trails, along with static trails compiled from various AV reports and custom user defined lists, where trail can be anything from domain name.
+
 ### nginx
 
 [![](https://badge.imagelayers.io/matthewgall/nginx:latest.svg)](https://imagelayers.io/?images=matthewgall/nginx:latest 'Get your own badge on imagelayers.io')
@@ -36,6 +44,7 @@ Starting an nginx container is easy, use the following command to start a nginx 
 
 #### What is this image?
 This image provides a [nodejs](https://www.nodejs.org) environment, including [npm](https://www.npmjs.com) for all your Docker needs!
+
 ### python-dev
 
 [![](https://badge.imagelayers.io/matthewgall/python-dev:latest.svg)](https://imagelayers.io/?images=matthewgall/python-dev:latest 'Get your own badge on imagelayers.io')
