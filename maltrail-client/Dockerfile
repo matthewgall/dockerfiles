@@ -10,4 +10,6 @@ WORKDIR /app
 RUN git clone https://github.com/stamparm/maltrail.git /app
 RUN virtualenv /env && /env/bin/pip install -r /app/requirements.txt
 
+EXPOSE 22-9000
+
 CMD ["/env/bin/python", "sensor.py"]
